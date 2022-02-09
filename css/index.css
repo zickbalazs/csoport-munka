@@ -105,8 +105,14 @@ footer p{
     padding: 0;
     text-align: center;
 }
+section{
+    width: 100%;
+}
 table{
-    
+    overflow: auto;
+}
+tbody{
+    width: 100%;
 }
 td{
     width: 30%;
