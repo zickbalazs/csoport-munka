@@ -38,30 +38,66 @@ nav li{
 nav li:hover{
     background-color: gray;
 }
-ul{
+nav ul{
     margin: 0;
     padding: 0;
+}
+q{
+    font-style: italic;
+    padding-right: 2px;
 }
 header{
     text-align: center;
 }
 article{
     color: white;
-    padding: 5px;
+    padding: 15px;
     text-align: justify;
     background-color: rgb(19, 19, 31);
-    text-shadow: 0 0 10px white;
+    text-shadow: 0 0 2px lightgray;
 }
-footer div{
+footer{
     background-color: gray;
 }
-.left{
-    width: 50%;
-    float: left;
+.logo{
+    height: 200px;
+    margin: 15px;
+}
+#ddvid{
+    width: 500px;
+}
+#ddhead{
+    background-color: rgb(49, 29, 17);
+}
+#ddart h2{
+    font-size: 3rem;
     text-align: center;
 }
-.right{
+#ddart p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+#ddart img{
+    width: 45%;
+    border: 2px solid rgb(95, 23, 23);
+}
+#ddvid{
+    border: 2px solid rgb(95,23,23);
     width: 50%;
-    float:right;
+}
+#ddart h2:last-of-type{
+    text-align: left;
+}
+hr{
+    width: 85%;
+}
+footer h3{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+footer p{
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
