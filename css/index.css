@@ -112,6 +112,9 @@ section{
     background: rgb(34,33,33);
     background: radial-gradient(circle, rgba(34,33,33,1) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 76%, rgba(19,19,31,1) 100%); 
 }
+#dooomhead p{
+    margin: 0;
+}
 #doomhead img{
     width: 25%;
     padding: 100px;
@@ -122,6 +125,30 @@ section{
 #doomart span{
 
 }
+
 table video{
-    width: 100%;
+    width: 75%;
+    margin: 0 12.5% 0 12.5%;
+    transition: width 0.5s, margin 0.5s, border 0.5s;
+    text-align: center;
+    border: 2px solid white;
+}
+table video:hover{
+    width: calc(100%);
+    border: 0;
+    margin:0;
+}
+table th{
+    font-size: 1.5rem;
+
+}
+section{
+    color: white;
+    background-color:black;
+}
+table tbody tr:last-of-type td{
+    padding: 15px;
+    text-align: center;
+    color: white;
+    
 }
