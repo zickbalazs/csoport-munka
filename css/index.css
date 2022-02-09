@@ -120,13 +120,8 @@ section{
 
 }
 #doomart span{
+
 }
-table{
-    overflow: auto;
-}
-tbody{
+table video{
     width: 100%;
-}
-td{
-    width: 30%;
 }
