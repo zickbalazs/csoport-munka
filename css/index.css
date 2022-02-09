@@ -108,6 +108,19 @@ footer p{
 section{
     width: 100%;
 }
+#doomhead{
+    background: rgb(34,33,33);
+    background: radial-gradient(circle, rgba(34,33,33,1) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 76%, rgba(19,19,31,1) 100%); 
+}
+#doomhead img{
+    width: 25%;
+    padding: 100px;
+}
+#doomart{
+
+}
+#doomart span{
+}
 table{
     overflow: auto;
 }
