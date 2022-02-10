@@ -38,30 +38,117 @@ nav li{
 nav li:hover{
     background-color: gray;
 }
-ul{
+nav ul{
     margin: 0;
     padding: 0;
+}
+q{
+    font-style: italic;
+    padding-right: 2px;
 }
 header{
     text-align: center;
 }
 article{
     color: white;
-    padding: 5px;
+    padding: 15px;
     text-align: justify;
     background-color: rgb(19, 19, 31);
-    text-shadow: 0 0 10px white;
+    text-shadow: 0 0 2px lightgray;
 }
-footer div{
+footer{
     background-color: gray;
 }
-.left{
-    width: 50%;
-    float: left;
+.logo{
+    height: 200px;
+    margin: 15px;
+}
+#ddvid{
+    width: 500px;
+}
+#ddhead{
+    background: rgb(34,33,33);
+    background: linear-gradient(180deg, rgba(34,33,33,1) 0%, rgba(121,61,9,1) 20%, rgba(121,61,9,1) 76%, rgba(19,19,31,1) 100%); 
+}
+#ddhead img{
+    padding: 50px;
+}
+#ddart h2{
+    font-size: 3rem;
     text-align: center;
 }
-.right{
-    width: 50%;
-    float:right;
+#ddart p{
+    font-size: 1.5rem;
     text-align: center;
+}
+#ddart img{
+    width: 45%;
+    border: 2px solid rgb(95, 23, 23);
+}
+#ddvid{
+    border: 2px solid rgb(95,23,23);
+    width: 50%;
+}
+#ddart h2:last-of-type{
+    text-align: left;
+}
+hr{
+    width: 85%;
+}
+footer h3{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+footer p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+section{
+    width: 100%;
+}
+#doomhead{
+    background: rgb(34,33,33);
+    background: radial-gradient(circle, rgba(34,33,33,1) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 76%, rgba(19,19,31,1) 100%); 
+}
+#dooomhead p{
+    margin: 0;
+}
+#doomhead img{
+    width: 25%;
+    padding: 100px;
+}
+#doomart{
+
+}
+#doomart span{
+
+}
+
+table video{
+    width: 75%;
+    margin: 0 12.5% 0 12.5%;
+    transition: width 0.5s, margin 0.5s, border 0.5s;
+    text-align: center;
+    border: 2px solid white;
+}
+table video:hover{
+    width: calc(100%);
+    border: 0;
+    margin:0;
+}
+table th{
+    font-size: 1.5rem;
+
+}
+section{
+    color: white;
+    background-color:black;
+}
+table tbody tr:last-of-type td{
+    padding: 15px;
+    text-align: center;
+    color: white;
+    
 }
