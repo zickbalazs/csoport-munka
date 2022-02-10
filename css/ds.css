@@ -6,6 +6,9 @@ body{
     margin: 0;
     width: 100%;
     height: 100%;
+    background-image: url('../hatter.jpg');
+    background-size: cover;
+    color: lightgray;
 }
 .container{
     margin: 0;
@@ -46,13 +49,6 @@ ul{
 header{
     text-align: center;
 }
-
-body{
-    background-image: url('../hatter.jpg');
-    background-size: cover;
-    color: lightgray;
-}
-
 .balra{
     float: left;
     width: 60%;
@@ -79,6 +75,8 @@ video{
 h2, h1{
     font-variant: small-caps;
     font-family: Quintessential;
+    margin: 10px;
+    
 }
 #reklam{
     position: absolute;
@@ -93,4 +91,7 @@ p{
     border: 2px solid black;
     border-radius: 15px;
     padding: 5px;
+}
+main{
+    padding: 20px;
 }
