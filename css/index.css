@@ -57,7 +57,11 @@ article{
     text-shadow: 0 0 2px lightgray;
 }
 footer{
-    background-color: gray;
+    background-color: black;
+    color:white;
+}
+#space{
+    padding-top: 50px;
 }
 .logo{
     height: 200px;
@@ -115,6 +119,16 @@ section{
 #dooomhead p{
     margin: 0;
 }
+#doomart h2{
+    text-align: center;
+}
+video p{
+    color:white;
+}
+#doomart{
+    font-size: 120%;
+    text-align: center;
+}
 #doomhead img{
     width: 25%;
     padding: 100px;
@@ -127,19 +141,22 @@ section{
 }
 #linkek a{
     padding-right: 10px;
-    color: black;
+    color: white;
     font-style: italic;
     text-decoration: none;
-    transition: font-size 0.1s;
+    transition: font-size 0.1s, color 0.1s;
 }
 #linkek a:hover{
     font-size: larger;
+    color: rgb(155, 155, 155);
 }
 #indexHeader{
-    min-height: 125px;
+    background-color: rgb(29, 29, 29);
 }
-#indexHeader h1{
-    padding: 50px;
+#indexHeader p{
+    padding: 75px;
+    text-align: center;
+    margin: 0;  
 }
 table video{
     width: 75%;
@@ -159,6 +176,41 @@ table th{
     padding-top: 30px;
     padding-bottom: 30px;
 
+}
+table{
+    padding-bottom: 50px;
+}
+#indexArt{
+    font-size: large;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+}
+.storelink hr{
+    transition: width 0.1s;
+}
+.storelink{
+    transition: font-size 0.1s;
+}
+.storelink:hover hr{
+    width: 80%;
+}
+.trailerwithlist{
+    width: 70%;
+    display:block;
+    overflow: auto;
+    margin: auto;
+}
+.trailerwithlist ul{
+    width: 50%;
+    text-align: left;
+    float: left;
+
+}
+.trailerwithlist video{
+    width: 40%;
+    float:right;
 }
 section{
     color: white;
@@ -189,4 +241,18 @@ table tbody tr:last-of-type td{
 }
 h2 img{
     height: 100px;
+}
+@media screen and (max-width:800px){
+    .trailerwithlist{
+        clear:both;
+        float:none;
+    }
+    .trailerwithlist ul{
+        float: none;
+        width: 100%;
+    }
+    .trailerwithlist video{
+        float:none;
+        width: 100%;
+    }
 }
