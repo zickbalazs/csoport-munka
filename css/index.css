@@ -119,13 +119,28 @@ section{
     width: 25%;
     padding: 100px;
 }
-#doomart{
-
+#no_margin{
+    margin: 0;
 }
-#doomart span{
-
+#linkek{
+    margin:auto;
 }
-
+#linkek a{
+    padding-right: 10px;
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+    transition: font-size 0.1s;
+}
+#linkek a:hover{
+    font-size: larger;
+}
+#indexHeader{
+    min-height: 125px;
+}
+#indexHeader h1{
+    padding: 50px;
+}
 table video{
     width: 75%;
     margin: 0 12.5% 0 12.5%;
@@ -139,16 +154,39 @@ table video:hover{
     margin:0;
 }
 table th{
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
 }
 section{
     color: white;
     background-color:black;
 }
+section a{
+    color: white;
+    transition: font-size 0.2s;
+}
+section a:hover{
+    font-size: 150%;
+}
+section q{
+    font-size: 130%;
+}
+section hr{
+    color: white;
+    width: 60%;
+    height: 3px;
+    background-color: white;
+    border-radius: 15px;
+}
 table tbody tr:last-of-type td{
     padding: 15px;
     text-align: center;
     color: white;
     
+}
+h2 img{
+    height: 100px;
 }
